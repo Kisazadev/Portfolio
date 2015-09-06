@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Kevin Isaza Portfolio</title>
+
+<!--Load Bootstrapcss via CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--Font Awesome CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- MFIZZ extension -->
+<link rel="stylesheet" href="assets/font-mfizz-1.2/font-mfizz.css">
+<!--Custom Stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<!-- Navigation -->
+<div class="container home">
+
+<nav class="navbar navbar-inverse navbar-static-top"  role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+  <div class="overlay">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Kevin Isaza</h1>
+            <h3>Web Developer<h3>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- /.container -->
+<section id= "about">
+  <div class="container">
+    <div class="row">
+      <h1> A bit about me </h1>
+      <hr/>
+      <p> I'm a music student/classical guitarist in his final year of college. I discovered half way <br>
+        through my education the amazing world of software development. After spending years in the practice room, <br>
+        I've decided to dedicate my life to my code editor!
+
+.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h1> My current skillset </h1>
+    <hr/>
+    <div class="row one">
+      <div class ="col-md-4"><i class ="icon-html" style="font-size: 3em"> HTML5</i></div>
+      <div class ="col-md-4"><i class ="icon-css" style="font-size: 3em"> CSS3</i></div>
+      <div class ="col-md-4"><i class ="icon-javascript" style="font-size: 3em"> Javascript</i></div>
+    </div>
+    <h1 class="future"> What I'd like to learn </h1>
+    <hr/>
+    <div class="row two">
+      <div class ="col-md-6 "><i class ="icon-php-alt" style="font-size: 3em"> PHP</i></div>
+      <div class ="col-md-6 "><i class ="icon-nodejs" style="font-size: 3em"> NodeJS</i></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <h1> Works in progress </h1>
+  <div class="row">
+    <div class ="col-lg-6">
+      <a href ="Menu_Company/"> Menu Company <i class ="fa fa-glass fa-4x"></i> </a>
+    </div>
+    <div class ="col-lg-6">
+      <a href ="Tax_App/"> Angular Calculator <i class = "fa fa-calculator fa-4x"></i> </a>
+    </div>
+  </div>
+
+</section>
+
+<section id="maps">
+  <div id="map"></div>
+</section>
+
+
+<section id="contact">
+  <div clas="container">
+    <div class= "row">
+      <h1>  Contact and get to know me here </h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+      <a href = "https://soundcloud.com/fatalfable/likes"<i class =" fa fa-soundcloud fa-2x"></i> </a>
+      <a href = "https://play.spotify.com/user/fatalfable"<i class =" fa fa-spotify fa-2x"></i> </a>
+      <a href = "https://www.facebook.com/kisaza334"<i class =" fa fa-facebook fa-2x"></i> </a>
+      <a href = "https://www.linkedin.com/pub/kevin-isaza/34/839/3b5"<i class =" fa fa-linkedin fa-2x"></i> </a>
+      <a href = "https://github.com/kisazadev"<i class =" fa fa-github fa-2x"></i> </a>
+    </div>
+  </div>
+
+  </div>
+
+    <div class ="row">
+      <a href= "mailto:Kisazadev@gmail.com">Kisazadev@gmail.com </a>
+    </div>
+  </div>
+</section>
+  <footer>© 2015 Kisaza.com</footer>
+</body>
+<!-- Load JQUERY via CDN -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Load Bootstrapjs via CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- load angular via CDN -->
+<!--<script src="https://code.angularjs.org/1.4.5/angular.js"></script>-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwsXKEZ09VjylvWXqA79fJU6F8Shqno2o&callback=initMap"></script>
+<!-- CUSTOM JS -->
+<script src="assets/javascripts/app.js"></script>
+
+</html>
